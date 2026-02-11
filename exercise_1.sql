@@ -1,5 +1,5 @@
--- PROJECT: 
--- TOOLS:
+-- PROJECT: End-to-End SQL Business Analysis – Tokopaedi 
+-- TOOLS: PostgreSQL
 
 -- ===== Exploratory Data Analysis =====
 -- 1. Laporan total sales per bulan tahun 2024
@@ -186,4 +186,5 @@ GROUP BY
     registration_channel
 ORDER BY
     registration_month,
+
     registration_channel;
